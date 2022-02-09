@@ -1,0 +1,221 @@
+body
+{
+	font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+.header
+{
+	display: flex;
+	justify-content: space-between;
+    padding-top: 15px;
+}
+.img_gl
+{
+	padding-left: 13px;
+}
+
+
+.gl_srch
+{
+	padding-right: 40px;
+	font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+.gl_srch a
+{
+	text-decoration: none;
+	color: black;
+}
+.gl_srch a:hover
+{
+	text-decoration: underline;
+}
+
+.section_1
+{
+	color: #d93025;
+    font-size: 20px;
+
+}
+
+.lbl_as
+{
+	 margin: 36px 38px;
+}
+
+.border_bottom
+{
+	border-bottom: 1px solid #ebebeb;
+}
+
+
+.section_2
+{
+
+    margin: 35px 40px;
+    max-width: 1140px;
+
+}
+.frst_prt
+{
+	display: flex;
+
+
+
+
+}
+.prt1
+{
+
+
+
+    width: 16%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+
+
+  	 min-height: 42px;
+ 
+ 
+}
+
+.prt2
+{
+  
+    min-width: 167px;
+    min-height: 41px;
+
+
+
+
+    width: 50%;
+
+
+
+
+
+}
+
+.prt3
+{
+ 
+
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+
+  
+
+
+  	height: 30px;
+
+}
+
+
+
+.part1
+{
+
+
+
+	width: 16%;
+	color: #222;
+    font-size: 13px;
+
+  
+}
+.part2
+{
+	
+	height: 42px;
+
+
+    width: 50%;
+
+
+}
+.part3
+{
+	width: 32%;
+	margin-left: 22px;
+	margin-top: 8px;
+
+    color: #555;
+    font-size: 11px;
+
+
+}
+.sp
+{
+	color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+.inpt_prt1
+{
+
+    height: 25px;
+	width: 100%
+
+}
+
+
+
+.lst_part2
+{
+	margin-left: 56%;
+	margin-top: 1%;
+
+}
+
+
+.inpt_last_part2
+{
+
+	
+	color: white;
+    border: 1px solid #3079ed;
+	background-color: #4d90fe;
+    text-align: center;
+    font-size: 11px;
+    font-weight:bold;
+
+    border-radius: 2px;
+   
+}
+
+.inpt_last_part2:hover
+{
+
+ 	 border: 0.1px solid blue;
+     box-shadow: 1px 1px 3px #3079ed inset;
+
+}
+
+
+input[type="text"]:focus {
+  
+  outline-color: #4d90fe;
+  box-shadow: 1px 1px 2px grey inset;
+  border: none;
+}
+
+@media (max-width: 990px)
+{
+  
+    .part3
+    {
+         display: none;
+    }
+
+    .prt3_1
+    {
+        display: none;
+    }
+}

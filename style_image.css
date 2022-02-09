@@ -1,0 +1,179 @@
+.img_srch
+{
+	padding-right: 40px;
+    padding-top: 15px;
+	font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+	display: flex;
+    justify-content: flex-end;
+}
+
+.img_srch a
+{
+	text-decoration:none;
+	color: black;
+
+}
+.img_srch a:hover
+{
+	text-decoration:underline;
+}
+
+
+.container_gl_img
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.google_image
+{
+	text-align: center;
+	margin-top: 5%;
+
+	max-height: 92px;
+    position: relative;
+}
+.google_image
+{
+	
+}
+.img_gl
+{
+   
+
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.wrd_pst
+{
+	
+
+
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 228px;
+    bottom: 0;
+    white-space: nowrap;
+   
+
+}
+
+.container
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+
+}
+
+#inp_fld
+{
+	background-color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    
+   
+    outline: none;
+   
+
+    font-size: 16px;
+}
+
+
+.dv_in1
+{
+	
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin-top: 25px;
+    width: 550px;
+
+    background: #fff;
+    display: flex;
+    
+    z-index: 3;
+
+    max-width: 584px;
+
+  
+}
+
+.dv_in1:hover
+{
+	box-shadow: 1px 1px 3px grey;
+}
+#inp_fld
+{
+	margin: 15px;
+	margin-left: 35px;
+	width: 450px;
+
+	 
+
+}
+
+.dv_in2
+{
+	text-align: center;
+	margin: 26px;
+}
+.dv_in1:hover
+{
+	
+
+}
+
+
+
+.btn_1
+{
+	flex: 0 0 auto;
+    padding-right: 13px;
+}
+
+.btn_1
+{
+	height: 44px;
+    width: 44px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+    padding: 0;
+}
+.dv_srch_btn
+{
+	    background: none;
+    color: #4285f4;
+    height: 24px;
+    width: 24px;
+    margin: auto;
+}
+.sp_srch_btn
+{
+	display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.dv_in1
+{
+	background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+
+}
